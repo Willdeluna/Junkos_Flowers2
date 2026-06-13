@@ -1,0 +1,11 @@
+name = "junko-enhance"
+main = "worker.js"
+compatibility_date = "2026-06-01"
+
+# Optional defaults. The OpenAI key is NOT here — set it as a secret:
+#   npx wrangler secret put OPENAI_KEY
+[vars]
+MODEL = "gpt-image-1"
+# Lock this to your site once it works (recommended):
+# ALLOW_ORIGIN = "https://willdeluna.github.io"
+ALLOW_ORIGIN = "*"
